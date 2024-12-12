@@ -1,0 +1,84 @@
+/* AI Page Styles */
+.ai-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ai-box {
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff5470;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #bbb;
+}
+
+.ai-section {
+    margin-bottom: 30px;
+    text-align: left;
+    color: #ccc;
+}
+
+.ai-section h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ff5470;
+}
+
+.ai-section p,
+.ai-section ul {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.ai-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ai-section li {
+    margin-bottom: 15px;
+}
+
+.ai-section strong {
+    color: #ff5470;
+}
+
+/* Header Styles */
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home-btn {
+    text-decoration: none;
+    background: #ff5470;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+    background: #ff768c;
+}

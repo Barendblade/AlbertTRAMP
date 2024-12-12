@@ -1,0 +1,114 @@
+/* General Reset */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chat-box {
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff5470;
+}
+
+.chat-window {
+    background: #2e2e2e;
+    height: 300px;
+    border-radius: 8px;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.chat-window::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+    background: #ff5470;
+    border-radius: 4px;
+}
+
+.chat-form {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-form input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background: #2e2e2e;
+    color: #ffffff;
+    font-size: 1em;
+    outline: none;
+}
+
+.chat-form input::placeholder {
+    color: #aaa;
+}
+
+.chat-form .btn {
+    background: linear-gradient(90deg, #ff5470, #ff768c);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.chat-form .btn:hover {
+    background: linear-gradient(90deg, #ff768c, #ff5470);
+}
+
+/* Header Styles */
+.header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home-btn {
+    text-decoration: none;
+    background: #ff5470;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+    background: #ff768c;
+}

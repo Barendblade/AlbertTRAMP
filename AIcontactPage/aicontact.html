@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAMP - Contact Us</title>
+    <link rel="stylesheet" href="aicontact.css">
+</head>
+
+<body>
+    <div class="contact-container">
+        <header class="header">
+            <a href="/index.html" class="home-btn">Home</a>
+        </header>
+        <div class="contact-box">
+            <h1 class="title">Contact Us</h1>
+            <p class="subtitle">We’d love to hear from you. Feel free to reach out with any questions or feedback.</p>
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="afa5c495-eac4-42ce-afad-673fda9b0141">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+            <p class="redirect">Need immediate assistance? <a href="/ChatWithUs/chat.html">Chat with us</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
